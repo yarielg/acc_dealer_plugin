@@ -8,6 +8,7 @@ final class Init{
 
         return [
             Base\Pages::class,
+            Base\Settings::class,
             Base\Enqueue::class,
             Base\User::class,
             Base\Shortcodes::class,
