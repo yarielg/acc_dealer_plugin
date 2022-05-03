@@ -117,8 +117,7 @@
             </div>
             <div class="col-3">
                 <el-select size="small" class="page-length" @change="getUsers" v-model="length" placeholder="Select">
-                    <el-option :key="2" :value="2" label="2" />
-                    <el-option :key="3" :value="3" label="3" />
+                    <el-option :key="5" :value="5" label="5" />
                     <el-option :key="10" :value="10" label="10" />
                     <el-option :key="15" :value="15" label="15" />
                     <el-option :key="20" :value="20" label="20" />
