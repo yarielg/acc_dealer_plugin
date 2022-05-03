@@ -1,5 +1,5 @@
 <?php
-
+/** HELPERS **/
 function dp_template( $file, $args ){
 	// ensure the file exists
 	if ( !file_exists( $file ) ) {
