@@ -109,7 +109,6 @@ class User{
 	}
 
 	function remove_user(){
-
 		wp_delete_user($_POST['id']);
 
 		echo json_encode(array('success' => true,'msg'=> 'User removed succesfully'));

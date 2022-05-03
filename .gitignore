@@ -8,4 +8,5 @@ tsconfig.json
 readme.txt
 .babelrc
 composer.json
+node_modules
 
