@@ -10,10 +10,10 @@
             <el-icon><user-filled /></el-icon>
             <span>Users</span>
           </el-menu-item>
-          <el-menu-item index="4" @click="changeScreen('settings')">
+          <!--<el-menu-item index="4" @click="changeScreen('settings')">
             <el-icon><setting /></el-icon>
             <span>Settings</span>
-          </el-menu-item>
+          </el-menu-item>-->
 
         </el-menu>
       </el-col>

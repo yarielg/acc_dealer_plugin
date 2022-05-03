@@ -2,13 +2,13 @@
     <div class="container" v-loading="loading">
         <div class="row mt-3">
             <div class="col-7">
-                <h5>Users</h5>
+                <h5>Dealers</h5>
             </div>
             <div class="col-3">
                 <el-input @change="getUsers" v-model="search" size="small" placeholder="Type to search" />
             </div>
             <div class="col-2">
-                <el-button class="add-price-list-btn" @click="dialog= true" size="small" type="primary" plain><el-icon><plus /></el-icon> Add User</el-button>
+                <el-button class="add-price-list-btn" @click="dialog= true" size="small" type="primary" plain><el-icon><plus /></el-icon> Add Dealer</el-button>
             </div>
         </div>
         <div class="row">
@@ -16,7 +16,7 @@
 
                 <el-dialog
                         v-model="dialog"
-                        title="Add User"
+                        title="Add Dealer"
                         width="500px">
 
                     <el-form
@@ -102,7 +102,7 @@
 
         <div class="row mt-3">
             <div class="col-3">
-                <span class="pagination-footer-count-text">showing {{ length }} of {{ userTotal }} products</span>
+                <span class="pagination-footer-count-text">showing {{ length > userTotal ? userTotal : length }} of {{ userTotal }} </span>
             </div>
             <div class="col-6">
                 <div class="product-footer-pagination">

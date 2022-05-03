@@ -212,18 +212,12 @@ var _hoisted_1 = /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createEle
 /* HOISTED */
 );
 
-var _hoisted_2 = /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("span", null, "Settings", -1
-/* HOISTED */
-);
-
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_user_filled = Object(vue__WEBPACK_IMPORTED_MODULE_0__["resolveComponent"])("user-filled");
 
   var _component_el_icon = Object(vue__WEBPACK_IMPORTED_MODULE_0__["resolveComponent"])("el-icon");
 
   var _component_el_menu_item = Object(vue__WEBPACK_IMPORTED_MODULE_0__["resolveComponent"])("el-menu-item");
-
-  var _component_setting = Object(vue__WEBPACK_IMPORTED_MODULE_0__["resolveComponent"])("setting");
 
   var _component_el_menu = Object(vue__WEBPACK_IMPORTED_MODULE_0__["resolveComponent"])("el-menu");
 
@@ -272,26 +266,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                     _: 1
                     /* STABLE */
 
-                  }), Object(vue__WEBPACK_IMPORTED_MODULE_0__["createVNode"])(_component_el_menu_item, {
-                    index: "4",
-                    onClick: _cache[1] || (_cache[1] = function ($event) {
-                      return _ctx.changeScreen('settings');
-                    })
-                  }, {
-                    "default": Object(vue__WEBPACK_IMPORTED_MODULE_0__["withCtx"])(function () {
-                      return [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createVNode"])(_component_el_icon, null, {
-                        "default": Object(vue__WEBPACK_IMPORTED_MODULE_0__["withCtx"])(function () {
-                          return [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createVNode"])(_component_setting)];
-                        }),
-                        _: 1
-                        /* STABLE */
-
-                      }), _hoisted_2];
-                    }),
-                    _: 1
-                    /* STABLE */
-
-                  })];
+                  }), Object(vue__WEBPACK_IMPORTED_MODULE_0__["createCommentVNode"])("<el-menu-item index=\"4\" @click=\"changeScreen('settings')\">\n            <el-icon><setting /></el-icon>\n            <span>Settings</span>\n          </el-menu-item>")];
                 }),
                 _: 1
                 /* STABLE */
@@ -347,7 +322,7 @@ var _hoisted_2 = {
 
 var _hoisted_3 = /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", {
   "class": "col-7"
-}, [/*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("h5", null, "Users")], -1
+}, [/*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("h5", null, "Dealers")], -1
 /* HOISTED */
 );
 
@@ -358,7 +333,7 @@ var _hoisted_5 = {
   "class": "col-2"
 };
 
-var _hoisted_6 = /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createTextVNode"])(" Add User");
+var _hoisted_6 = /*#__PURE__*/Object(vue__WEBPACK_IMPORTED_MODULE_0__["createTextVNode"])(" Add Dealer");
 
 var _hoisted_7 = {
   "class": "row"
@@ -467,7 +442,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "onUpdate:modelValue": _cache[7] || (_cache[7] = function ($event) {
       return $data.dialog = $event;
     }),
-    title: "Add User",
+    title: "Add Dealer",
     width: "500px"
   }, {
     "default": Object(vue__WEBPACK_IMPORTED_MODULE_0__["withCtx"])(function () {
@@ -702,7 +677,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["data"])), [[_directive_loading, $data.loading]])])]), Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", _hoisted_13, [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", _hoisted_14, [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("span", _hoisted_15, "showing " + Object(vue__WEBPACK_IMPORTED_MODULE_0__["toDisplayString"])($data.length) + " of " + Object(vue__WEBPACK_IMPORTED_MODULE_0__["toDisplayString"])($data.userTotal) + " products", 1
+  , ["data"])), [[_directive_loading, $data.loading]])])]), Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", _hoisted_13, [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", _hoisted_14, [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("span", _hoisted_15, "showing " + Object(vue__WEBPACK_IMPORTED_MODULE_0__["toDisplayString"])($data.length > $data.userTotal ? $data.userTotal : $data.length) + " of " + Object(vue__WEBPACK_IMPORTED_MODULE_0__["toDisplayString"])($data.userTotal), 1
   /* TEXT */
   )]), Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", _hoisted_16, [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createElementVNode"])("div", _hoisted_17, [Object(vue__WEBPACK_IMPORTED_MODULE_0__["createVNode"])(_component_el_pagination, {
     layout: "prev, pager, next",
