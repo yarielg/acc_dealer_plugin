@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,800&family=Poppins:ital,wght@0,200;0,400;1,700&display=swap);
+
+.price_lists{
+        font-size: 12px;
+}
+.add-price-list-btn{
+        float: right;
+}
+.select-pl, .factor-field{
+        width: 100% !important;
+}
+.info-field{
+        font-size: 11px;
+        width: fit-content !important;
+        margin-bottom: 0 !important;
+}
+.percent-cell.above{
+        color: green;
+}
+.cell{
+        font-size: 12px !important;
+}
+.percent-cell.below{
+        color: red;
+}
+.el-badge__content{
+        font-size: 10px !important;
+}
+.btn-prev, .btn-next{
+        margin-top: -6px !important;
+}
+.product-footer-pagination{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+.pagination-footer-count-text{
+        font-size: 12px;
+}
+.page-length{
+        width: 80px;
+        float: right;
+}
+
+
+
+#wpcontent {
+    padding-left: 0 !important;
+}
+#dp-app{
+    background: #eef1f5 !important;
+    height: 100vh;
+    font-family: 'Poppins' !important;
+    font-size: 12px !important;
+    position: fixed !important;
+    right: 0;
+    left: 160px;
+}
+.notice.notice-warning, .updraftmessage{
+    display:none !important;
+}
+.el-input__inner{
+    background: white !important;
+}
+.product-footer-pagination{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.dp-admin-main, .dp-admin-main > .el-row, .dp-admin-main .dp-sidebar, .dp-sidebar > .el-menu{
+    height: 100vh !important;
+}
+
+
+
+/*# sourceMappingURL=app.css.map*/
