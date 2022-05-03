@@ -4,7 +4,7 @@
 * @package yariko
 
 
-Plugin Name:  Dealer Portal
+Plugin Name:  Dealer Portal.
 Plugin URI:   https://thomasgbennett.com/
 Description:  Dealer Portal plugin created by Thomas Bennett Group
 Version:      1.0.4
